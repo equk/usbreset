@@ -1,6 +1,8 @@
 # usbreset
 
-reset usb devices using `<vid>` `<pid>`
+Reset USB Devices In Linux Using `<vid>` `<pid>`
+
+More info: [Reset USB Device In Linux - equk's blog](https://equk.co.uk/2023/09/25/reset-usb-device-in-linux/)
 
 ## list usb devices
 
