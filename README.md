@@ -4,6 +4,9 @@ Reset USB Devices In Linux Using `<vid>` `<pid>`
 
 More info: [Reset USB Device In Linux - equk's blog](https://equk.co.uk/2023/09/25/reset-usb-device-in-linux/)
 
+> [!NOTE]
+> This can also be useful for resetting a usb device after updating the firmware
+
 ## list usb devices
 
 ```
@@ -18,7 +21,7 @@ exec program with root privilege
 use `<vid> <pid>` from `lsusb` output
 
 ```
-$ sudo ./libusb_reset 045e 028e
+$ sudo usbreset 045e 028e
 Checking USB Device Connected ...
 Resetting USB Device [045e:028e]
 USB Device reset [045e:028e]
